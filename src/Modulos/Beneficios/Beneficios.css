@@ -1,0 +1,51 @@
+
+.containerbeneficios {
+    background-color: white;
+    display: grid;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 150px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.containerbeneficios div {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.containerbeneficios p {
+color: black;
+font-size: 1.2vw;
+}
+
+.containerbeneficios img {
+    margin: 3%;
+    width: 20%;
+    height: 80%;
+}
+
+@media (max-width: 1000px) {
+    .containerbeneficios {
+        height: 80px;
+    }
+    .containerbeneficios img {
+    width: 25%;
+    height: 60%;
+    }
+    .containerbeneficios p {  
+    font-size: 2vw;
+    }
+}

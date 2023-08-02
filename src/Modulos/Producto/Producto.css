@@ -1,0 +1,59 @@
+
+.producto {
+align-items: center;
+justify-content: center;
+justify-items: center;
+justify-items: center;
+display: relative;
+width: 290px;
+height: 350px;
+margin: 2%;
+background-color: rgb(228, 226, 226);
+display: grid;
+grid-template-rows: 60% 15% 25%;
+filter: drop-shadow(2px 2px 4px black);
+transition: 0.5s;
+z-index: 0;
+}
+
+.producto:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    background-color: white;
+    z-index: 1;
+}
+
+#imgart {
+width: 100%;
+height: 100%;
+}
+
+#precio {
+color: black;
+font-size: 1.3vw;
+}
+
+#nombre {
+font-size: 0.8vw;
+color: black;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    .producto {
+        height: 230px;
+        width: 185px;
+    }
+    #imgart {
+        min-height: 100px;
+        min-width: 100px;
+    }
+    #precio {
+        font-size: 2.3vw;
+    }
+    #nombre {
+        font-size: 1.8vw;
+    }
+}
+

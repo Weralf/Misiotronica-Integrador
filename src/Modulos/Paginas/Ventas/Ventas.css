@@ -1,0 +1,12 @@
+
+.ventastitulo {
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: #222;
+    height: 80%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}

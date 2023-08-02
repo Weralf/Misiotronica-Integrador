@@ -1,0 +1,72 @@
+
+
+.container {
+background-color: #222;
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+height: 100px;
+margin: 0;
+}
+
+.logo {
+    width: 15%;
+    min-width: 20vh;
+}
+
+#logo {
+    display: flex;
+    width: 100%;
+    min-width: 10vh;
+    height: 40%;
+    min-height: 20%;
+}
+
+.container a {
+ color: white;
+ justify-content: center;
+ text-decoration: none;
+ margin-right: 2rem;
+ font-size: 1.3rem;
+ padding: 1rem;
+}
+
+.container a:hover {
+    border-bottom: 2px solid white;
+}
+
+#botonn {
+    margin-right: 2rem;
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    #botonn {
+        display: block;
+    }
+
+    .navbar {
+    display: none;
+    }
+
+    .navbar.active{
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    align-items: center;
+    }
+
+}
+
+.search {
+    margin-left: 1px;
+}
+
