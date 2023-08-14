@@ -51,11 +51,27 @@ font-size: 1.5vw;
 
 
 @media (max-width: 1000px) {
+    .SobreNosotros {
+        width: 100%;
+        min-height: 480px;
+        margin-left: 0%;
+    }
     #tituloSobreNosotros {
-        font-size: 2vw;
+        font-size: 3.1vw;
     }
     #descSobreNosotros {
-        font-size: 1.8vw;
+        font-size: 2.5vw;
+        display: block;
+        object-fit: cover;
+    }   
     }
-    
-    }
+
+@media (max-width: 500px) {
+
+    #tituloSobreNosotros {
+        font-size: 3.1vw;
+}
+    #descSobreNosotros {
+        font-size: 3vw;
+}      
+}

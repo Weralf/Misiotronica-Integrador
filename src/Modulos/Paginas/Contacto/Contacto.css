@@ -63,15 +63,17 @@
     width: 100%;
 }
 #titulocontacto {
-  width: 100%;
-  font-size: 1.8vw;
-
+   font-size: 1.8vw;
+   width: 100%;
 }
 
 #inputconsulta {
-    width: 500px;
-
+    width: 100%;
 }
-
-
+#inputnombre {
+   width: 100%;
+}
+#inputcorreo {
+   width: 100%;
+}
 }

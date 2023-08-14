@@ -25,9 +25,12 @@ bottom: 0%;
 }
 
 .topfooter img {
-    margin: 1%;
+    max-width: 100%;
     width: 60px;
-    height: 60px;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    margin: 1%;
 }
 
 .topfooter a {
@@ -61,7 +64,8 @@ bottom: 0%;
 
 @media (max-width: 1000px) {
     .footer {
-    height: 30%;
+    min-height: 285px;
+    width: 100%;
     }
     .topfooter {
     height: 80%;
@@ -71,10 +75,20 @@ bottom: 0%;
     height: 40px;
     }
     #midfooter p {
-    font-size: 0.6em;
+    font-size: 2vw;
     }
     .bottomfooter {
-    font-size: 0.7em;
+    font-size: 2vw;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    #midfooter p {
+    font-size: 3vw;
+    }
+    .bottomfooter {
+    font-size: 3vw;
     }
     
 }

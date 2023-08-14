@@ -57,10 +57,10 @@ margin: 0;
     top: 100px;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 100%;
     width: 100%;
-    opacity: 50%;
+    opacity: 85%;
     align-items: center;
     }
 
